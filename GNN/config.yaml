@@ -1,0 +1,20 @@
+batch: 16
+random_seed: 42
+epoch: 60
+slide_win: 10
+dim: 64
+slide_stride: 1
+comment: "temperature" #sml
+out_layer_num: 1
+out_layer_inter_dim: 128
+decay: 0
+val_ratio: 0.2
+topk: 10
+
+
+save_path_pattern: "temperature"
+gpu_n: 0
+dataset: temperature
+report: 'best'
+device: 'cuda'
+load_model_path: []

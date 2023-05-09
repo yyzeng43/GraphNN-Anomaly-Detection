@@ -1,0 +1,3 @@
+random_seed: 88
+algorithm: 'lstm_ed'
+contamination: 0.05
